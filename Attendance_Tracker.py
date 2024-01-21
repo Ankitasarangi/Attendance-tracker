@@ -19,7 +19,7 @@ def main():
     tracker = AttendanceTracker()
 
     while True:
-        print("\nAttendance Tracker Menu:")
+        print("Attendance Tracker Menu:")
         print("1. Mark Attendance")
         print("2. Display Attendance")
         print("3. Exit")
@@ -36,6 +36,7 @@ def main():
             break
         else:
             print("Invalid choice. Please enter 1, 2, or 3.")
+        print()
 
 if __name__ == "__main__":
     main()
